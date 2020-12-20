@@ -25,3 +25,7 @@ Route::get('/twellium-login', function () {
     return view('frontend.index');
 });
 
+Route::get('/twellium-home', function () {
+    return view('frontend.contact');
+});
+
