@@ -16,3 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/dashboard', function () {
+    return view('backend.pages.index');
+});
+
+Route::get('/twellium-login', function () {
+    return view('frontend.index');
+});
+
